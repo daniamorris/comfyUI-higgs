@@ -1,0 +1,851 @@
+{
+  "id": "75839833-b02a-4387-a37a-e08909f5ab0b",
+  "revision": 0,
+  "last_node_id": 4423384186773525,
+  "last_link_id": 4503197943919076,
+  "nodes": [
+    {
+      "id": 1133755271000124,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        40,
+        60
+      ],
+      "size": [
+        400,
+        236
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "How are you feeling?",
+          "name": "value",
+          "type": "STRING",
+          "widget": {
+            "name": "value"
+          },
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            3838642350372509
+          ]
+        }
+      ],
+      "title": "Vibe Check · Q1: How are you feeling right now?",
+      "properties": {
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "like a party girl"
+      ],
+      "widgets_values_named": {
+        "value": "like a party girl"
+      },
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      }
+    },
+    {
+      "id": 2548550015551548,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        40,
+        366
+      ],
+      "size": [
+        400,
+        236
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "What's behind that feeling?",
+          "name": "value",
+          "type": "STRING",
+          "widget": {
+            "name": "value"
+          },
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            3407693088948754
+          ]
+        }
+      ],
+      "title": "Vibe Check · Q2: What's behind that feeling?",
+      "properties": {
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "wanting to hang out with friends in a crown and have fun"
+      ],
+      "widgets_values_named": {
+        "value": "wanting to hang out with friends in a crown and have fun"
+      },
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      }
+    },
+    {
+      "id": 1452627323442063,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        40,
+        672
+      ],
+      "size": [
+        412.4,
+        236
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "Where would you love to be right now?",
+          "name": "value",
+          "type": "STRING",
+          "widget": {
+            "name": "value"
+          },
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            2658268731122791
+          ]
+        }
+      ],
+      "title": "Vibe Check · Q3: Where would you love to be right now?",
+      "properties": {
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "At burning man on an art car"
+      ],
+      "widgets_values_named": {
+        "value": "At burning man on an art car"
+      },
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      }
+    },
+    {
+      "id": 3018351421216105,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        40,
+        978
+      ],
+      "size": [
+        437.0333312988281,
+        236
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "What colors or weather match your mood?",
+          "name": "value",
+          "type": "STRING",
+          "widget": {
+            "name": "value"
+          },
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            12714179431805
+          ]
+        }
+      ],
+      "title": "Vibe Check · Q4: What colors or weather match your mood?",
+      "properties": {
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "dust storm with lots of LED lighting"
+      ],
+      "widgets_values_named": {
+        "value": "dust storm with lots of LED lighting"
+      },
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      }
+    },
+    {
+      "id": 1514744396764176,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        40,
+        1284
+      ],
+      "size": [
+        401.6000122070312,
+        236
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "What sound or music fits your mood?",
+          "name": "value",
+          "type": "STRING",
+          "widget": {
+            "name": "value"
+          },
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            4503197943919076
+          ]
+        }
+      ],
+      "title": "Vibe Check · Q5: What sound or music fits your mood?",
+      "properties": {
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "electronic house music"
+      ],
+      "widgets_values_named": {
+        "value": "electronic house music"
+      },
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      }
+    },
+    {
+      "id": 1367283938566235,
+      "type": "StringConcatenate",
+      "pos": [
+        520,
+        118
+      ],
+      "size": [
+        400,
+        426
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "string_a",
+          "type": "STRING",
+          "widget": {
+            "name": "string_a"
+          },
+          "link": 3838642350372509
+        },
+        {
+          "name": "string_b",
+          "type": "STRING",
+          "widget": {
+            "name": "string_b"
+          },
+          "link": 3407693088948754
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            733394652702411
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "StringConcatenate"
+      },
+      "widgets_values": [
+        "",
+        "",
+        "\n2. What's behind the feeling: "
+      ],
+      "widgets_values_named": {
+        "string_a": "",
+        "string_b": "",
+        "delimiter": "\n2. What's behind the feeling: "
+      },
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      }
+    },
+    {
+      "id": 947087563162819,
+      "type": "StringConcatenate",
+      "pos": [
+        1000,
+        347.5
+      ],
+      "size": [
+        400,
+        426
+      ],
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "string_a",
+          "type": "STRING",
+          "widget": {
+            "name": "string_a"
+          },
+          "link": 733394652702411
+        },
+        {
+          "name": "string_b",
+          "type": "STRING",
+          "widget": {
+            "name": "string_b"
+          },
+          "link": 2658268731122791
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            373025831713735
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "StringConcatenate"
+      },
+      "widgets_values": [
+        "",
+        "",
+        "\n3. Where they'd love to be: "
+      ],
+      "widgets_values_named": {
+        "string_a": "",
+        "string_b": "",
+        "delimiter": "\n3. Where they'd love to be: "
+      },
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      }
+    },
+    {
+      "id": 971803788552478,
+      "type": "StringConcatenate",
+      "pos": [
+        1480,
+        615.25
+      ],
+      "size": [
+        400,
+        426
+      ],
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "string_a",
+          "type": "STRING",
+          "widget": {
+            "name": "string_a"
+          },
+          "link": 373025831713735
+        },
+        {
+          "name": "string_b",
+          "type": "STRING",
+          "widget": {
+            "name": "string_b"
+          },
+          "link": 12714179431805
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            3665582054114773
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "StringConcatenate"
+      },
+      "widgets_values": [
+        "",
+        "",
+        "\n4. Colors / weather of their mood: "
+      ],
+      "widgets_values_named": {
+        "string_a": "",
+        "string_b": "",
+        "delimiter": "\n4. Colors / weather of their mood: "
+      },
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      }
+    },
+    {
+      "id": 4164779430653083,
+      "type": "StringConcatenate",
+      "pos": [
+        1960,
+        902.125
+      ],
+      "size": [
+        400,
+        426
+      ],
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "string_a",
+          "type": "STRING",
+          "widget": {
+            "name": "string_a"
+          },
+          "link": 3665582054114773
+        },
+        {
+          "name": "string_b",
+          "type": "STRING",
+          "widget": {
+            "name": "string_b"
+          },
+          "link": 4503197943919076
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            2171575225817628
+          ]
+        }
+      ],
+      "title": "Vibe Check · Combined answers",
+      "properties": {
+        "Node name for S&R": "StringConcatenate"
+      },
+      "widgets_values": [
+        "",
+        "",
+        "\n5. Sound / music of their mood: "
+      ],
+      "widgets_values_named": {
+        "string_a": "",
+        "string_b": "",
+        "delimiter": "\n5. Sound / music of their mood: "
+      },
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      }
+    },
+    {
+      "id": 4334027162748597,
+      "type": "ClaudeNode",
+      "pos": [
+        2440,
+        878.125
+      ],
+      "size": [
+        400,
+        282
+      ],
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images.image_1",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "prompt",
+          "type": "STRING",
+          "widget": {
+            "name": "prompt"
+          },
+          "link": 2171575225817628
+        },
+        {
+          "name": "images",
+          "type": "COMFY_AUTOGROW_V3",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            1369107424764123
+          ]
+        }
+      ],
+      "title": "Vibe Check · Flux 3 Prompt Upsampler (Claude)",
+      "properties": {
+        "Node name for S&R": "ClaudeNode"
+      },
+      "widgets_values": [
+        "",
+        "Sonnet 5.5",
+        1024,
+        "low",
+        0,
+        "fixed",
+        "You are a FLUX 3 video prompt upsampler for an app called Vibe Check. The user answered five questions about their mood. The first line is their answer to \"1. How are you feeling right now?\"; the following lines are labeled answers 2-5. Turn these answers into ONE rich, cinematic text-to-video prompt for FLUX 3 that expresses the user's mood visually and sonically. Write it as a single flowing paragraph (120-180 words) in present tense, covering in this order: the scene and setting, a subject or focal element and what it does over the clip, camera movement and framing, lighting, color palette and atmosphere, and pacing. End with a sentence starting \"Audio:\" that describes the soundtrack - music style, instruments and tempo, plus ambient sounds and sound effects - matching the mood. No spoken dialogue, no on-screen text, no real or famous people. Keep it positive and safe even for sad moods (express sadness with gentle, poetic imagery). Output ONLY the final prompt, with no preamble, headings or quotes."
+      ],
+      "widgets_values_named": {
+        "prompt": "",
+        "model": "Sonnet 5.5",
+        "model.max_tokens": 1024,
+        "model.reasoning_effort": "low",
+        "seed": 0,
+        "control_after_generate": "fixed",
+        "system_prompt": "You are a FLUX 3 video prompt upsampler for an app called Vibe Check. The user answered five questions about their mood. The first line is their answer to \"1. How are you feeling right now?\"; the following lines are labeled answers 2-5. Turn these answers into ONE rich, cinematic text-to-video prompt for FLUX 3 that expresses the user's mood visually and sonically. Write it as a single flowing paragraph (120-180 words) in present tense, covering in this order: the scene and setting, a subject or focal element and what it does over the clip, camera movement and framing, lighting, color palette and atmosphere, and pacing. End with a sentence starting \"Audio:\" that describes the soundtrack - music style, instruments and tempo, plus ambient sounds and sound effects - matching the mood. No spoken dialogue, no on-screen text, no real or famous people. Keep it positive and safe even for sad moods (express sadness with gentle, poetic imagery). Output ONLY the final prompt, with no preamble, headings or quotes."
+      },
+      "color": "#432",
+      "bgcolor": "#653",
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      }
+    },
+    {
+      "id": 206132886080294,
+      "type": "Flux3TextToVideoNode",
+      "pos": [
+        2920,
+        913.125
+      ],
+      "size": [
+        400,
+        404
+      ],
+      "flags": {},
+      "order": 11,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "prompt",
+          "type": "STRING",
+          "widget": {
+            "name": "prompt"
+          },
+          "link": 1369107424764123
+        }
+      ],
+      "outputs": [
+        {
+          "name": "VIDEO",
+          "type": "VIDEO",
+          "links": [
+            3772671478271322
+          ]
+        }
+      ],
+      "title": "Vibe Check · Flux 3 Text to Video (with sound)",
+      "properties": {
+        "Node name for S&R": "Flux3TextToVideoNode"
+      },
+      "widgets_values": [
+        "",
+        "16:9",
+        "8",
+        "1080p",
+        true,
+        2,
+        42,
+        "fixed"
+      ],
+      "widgets_values_named": {
+        "prompt": "",
+        "aspect_ratio": "16:9",
+        "duration": "8",
+        "resolution": "1080p",
+        "generate_audio": true,
+        "safety_tolerance": 2,
+        "seed": 42,
+        "control_after_generate": "fixed"
+      },
+      "color": "#432",
+      "bgcolor": "#653",
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      }
+    },
+    {
+      "id": 4113479325393750,
+      "type": "SaveVideo",
+      "pos": [
+        3400,
+        1044.125
+      ],
+      "size": [
+        281.3343071202324,
+        172.0652599775857
+      ],
+      "flags": {},
+      "order": 12,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "video",
+          "type": "VIDEO",
+          "link": 3772671478271322
+        }
+      ],
+      "outputs": [
+        {
+          "name": "video",
+          "type": "VIDEO",
+          "links": []
+        }
+      ],
+      "title": "Vibe Check · Save Video",
+      "properties": {},
+      "widgets_values": [
+        "video/vibe_check",
+        "auto",
+        "auto",
+        "auto"
+      ],
+      "widgets_values_named": {
+        "filename_prefix": "video/vibe_check",
+        "format": "auto",
+        "format.codec": "auto",
+        "codec": "auto"
+      },
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      }
+    },
+    {
+      "id": "insert:87476ee9798f1a7eadc0ef11545b1172:root:node:1",
+      "type": "MarkdownNote",
+      "pos": [
+        -573.7875296187597,
+        -44.730599693265106
+      ],
+      "size": [
+        560,
+        520
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "Vibe Check · Models used & where to find them",
+      "properties": {},
+      "widgets_values": [
+        "# Vibe Check — Models used\n\nBoth models run as **Partner (API) nodes** on Comfy Cloud. Nothing to download or install — they are billed per run in credits.\n\n## 1. Prompt upsampler — Anthropic Claude (Sonnet 5.5)\n- **Node:** *Vibe Check · Flux 3 Prompt Upsampler (Claude)* — node type **Anthropic Claude**\n- **What it does:** turns the five answers into one detailed Flux 3 video prompt (scene, camera, lighting, colour, plus an \"Audio:\" line).\n- **Where to find it:** Node Library → **partner → text → Anthropic → Anthropic Claude** (or double-click the canvas and search \"Claude\").\n- **Settings:** model Sonnet 5.5, max tokens 1024, reasoning effort low. The upsampling instructions live in its *system_prompt*.\n- **Note:** there is no dedicated Flux 3 prompt-upsampler node, so Claude stands in for it.\n\n## 2. Video + sound — Flux 3 Text to Video (Black Forest Labs)\n- **Node:** *Vibe Check · Flux 3 Text to Video (with sound)* — node type **Flux 3 Text to Video**\n- **What it does:** generates the mood video with sound from the upsampled prompt.\n- **Where to find it:** Node Library → **partner → video → BFL → Flux 3 Text to Video** (or search \"Flux 3\"). A ready-made starter is also in the Templates gallery (Flux 3 text-to-video).\n- **Current settings:** 9:16, 10 seconds, 1080p, generate audio ON, seed 42.\n\n## Other nodes\nThe question boxes, Concatenate Text and Save Video are built-in core ComfyUI nodes (no models needed). Output files start with **vibe_check**."
+      ],
+      "widgets_values_named": {
+        "text": "# Vibe Check — Models used\n\nBoth models run as **Partner (API) nodes** on Comfy Cloud. Nothing to download or install — they are billed per run in credits.\n\n## 1. Prompt upsampler — Anthropic Claude (Sonnet 5.5)\n- **Node:** *Vibe Check · Flux 3 Prompt Upsampler (Claude)* — node type **Anthropic Claude**\n- **What it does:** turns the five answers into one detailed Flux 3 video prompt (scene, camera, lighting, colour, plus an \"Audio:\" line).\n- **Where to find it:** Node Library → **partner → text → Anthropic → Anthropic Claude** (or double-click the canvas and search \"Claude\").\n- **Settings:** model Sonnet 5.5, max tokens 1024, reasoning effort low. The upsampling instructions live in its *system_prompt*.\n- **Note:** there is no dedicated Flux 3 prompt-upsampler node, so Claude stands in for it.\n\n## 2. Video + sound — Flux 3 Text to Video (Black Forest Labs)\n- **Node:** *Vibe Check · Flux 3 Text to Video (with sound)* — node type **Flux 3 Text to Video**\n- **What it does:** generates the mood video with sound from the upsampled prompt.\n- **Where to find it:** Node Library → **partner → video → BFL → Flux 3 Text to Video** (or search \"Flux 3\"). A ready-made starter is also in the Templates gallery (Flux 3 text-to-video).\n- **Current settings:** 9:16, 10 seconds, 1080p, generate audio ON, seed 42.\n\n## Other nodes\nThe question boxes, Concatenate Text and Save Video are built-in core ComfyUI nodes (no models needed). Output files start with **vibe_check**."
+      },
+      "color": "#432",
+      "bgcolor": "#653",
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      }
+    }
+  ],
+  "links": [
+    [
+      3838642350372509,
+      1133755271000124,
+      0,
+      1367283938566235,
+      0,
+      "STRING"
+    ],
+    [
+      3407693088948754,
+      2548550015551548,
+      0,
+      1367283938566235,
+      1,
+      "STRING"
+    ],
+    [
+      733394652702411,
+      1367283938566235,
+      0,
+      947087563162819,
+      0,
+      "STRING"
+    ],
+    [
+      2658268731122791,
+      1452627323442063,
+      0,
+      947087563162819,
+      1,
+      "STRING"
+    ],
+    [
+      373025831713735,
+      947087563162819,
+      0,
+      971803788552478,
+      0,
+      "STRING"
+    ],
+    [
+      12714179431805,
+      3018351421216105,
+      0,
+      971803788552478,
+      1,
+      "STRING"
+    ],
+    [
+      3665582054114773,
+      971803788552478,
+      0,
+      4164779430653083,
+      0,
+      "STRING"
+    ],
+    [
+      4503197943919076,
+      1514744396764176,
+      0,
+      4164779430653083,
+      1,
+      "STRING"
+    ],
+    [
+      1369107424764123,
+      4334027162748597,
+      0,
+      206132886080294,
+      0,
+      "STRING"
+    ],
+    [
+      2171575225817628,
+      4164779430653083,
+      0,
+      4334027162748597,
+      1,
+      "STRING"
+    ],
+    [
+      3772671478271322,
+      206132886080294,
+      0,
+      4113479325393750,
+      0,
+      "VIDEO"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 1.3846557155031582,
+      "offset": [
+        -2996.4163799436556,
+        -798.0666883879097
+      ]
+    },
+    "linearData": {
+      "inputs": [
+        [
+          "75839833-b02a-4387-a37a-e08909f5ab0b:1133755271000124:value",
+          "value"
+        ],
+        [
+          "75839833-b02a-4387-a37a-e08909f5ab0b:2548550015551548:value",
+          "value"
+        ],
+        [
+          "75839833-b02a-4387-a37a-e08909f5ab0b:1452627323442063:value",
+          "value"
+        ],
+        [
+          "75839833-b02a-4387-a37a-e08909f5ab0b:3018351421216105:value",
+          "value"
+        ],
+        [
+          "75839833-b02a-4387-a37a-e08909f5ab0b:1514744396764176:value",
+          "value"
+        ],
+        [
+          "75839833-b02a-4387-a37a-e08909f5ab0b:206132886080294:aspect_ratio",
+          "aspect_ratio"
+        ],
+        [
+          "75839833-b02a-4387-a37a-e08909f5ab0b:206132886080294:duration",
+          "duration"
+        ],
+        [
+          "75839833-b02a-4387-a37a-e08909f5ab0b:206132886080294:resolution",
+          "resolution"
+        ]
+      ],
+      "outputs": [
+        "4113479325393750"
+      ]
+    },
+    "frontendVersion": "1.59.5",
+    "VHS_latentpreview": false,
+    "VHS_latentpreviewrate": 0,
+    "VHS_MetadataImage": true,
+    "VHS_KeepIntermediate": true
+  },
+  "version": 0.4
+}
