@@ -1,4 +1,4 @@
-# comfyUI-higgs Vibe Code
+# Vibe check - comfyUI-higgs 
 Submission for the open Source Higgsfield ComfyUI Hack
 
 Vibe check is a text to video generator that asks you how you're feeling and generates a video with sound in response - using Flux 3 by Black Forest Labs and Anthropic Claude (Sonnet 5.5)
